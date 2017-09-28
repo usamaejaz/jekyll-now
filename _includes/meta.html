@@ -26,8 +26,8 @@
     <meta property="twitter:title" content="{{ page.title }}" />
     {% endif %}
     {% if page.url %}
-    <meta content="{{ site.baseurl }}{{ page.url }}" property="og:url" />
-    <meta name="twitter:url" content="{{ site.baseurl }}{{ page.url }}">
+    <meta content="{{ site.url }}{{ page.url }}" property="og:url" />
+    <meta name="twitter:url" content="{{ site.url }}{{ page.url }}">
     {% endif %}
     {% if page.date %}
     <meta content="{{ page.date | date_to_xmlschema }}" property="article:published_time">
