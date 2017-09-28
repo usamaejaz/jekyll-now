@@ -3,7 +3,16 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge' />
     <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
 
-    {% if page.excerpt %}
+    <meta content="{{ site.name }}" property="og:site_name" />
+    {% if page.title %}
+    <meta content="article" property="og:type" />
+    {% else %}
+    <meta content="website" property="og:type" />
+    {% endif %}
+    {% if page.description %}
+    <meta name="description" content="{{ page.description }}" />
+    <meta property="og:description" content="{{ page.description }}" />
+    {% elseif page.excerpt %}
     <meta name="description" content="{{ page.excerpt| strip_html }}" />
     <meta property="og:description" content="{{ page.excerpt| strip_html }}" />
     {% else %}
@@ -15,4 +24,12 @@
     {% if page.title %}
     <meta property="og:title" content="{{ page.title }}" />
     <meta property="twitter:title" content="{{ page.title }}" />
+    {% endif %}
+    {% if page.url %}
+    <meta content="{{ site.baseurl }}{{ page.url }}" property="og:url" />
+    <meta name="twitter:url" content="{{ site.baseurl }}{{ page.url }}">
+    {% endif %}
+    {% if page.date %}
+    <meta content="{{ page.date | date_to_xmlschema }}" property="article:published_time">
+    <meta content="{{ site.baseurl }}/about/" property="article:author">
     {% endif %}
