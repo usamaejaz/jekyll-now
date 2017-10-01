@@ -6,7 +6,7 @@ title: My solution to not miss a prayer while working on computer
 There are a lot of things you need to do each day. You need to make sure you finish your tasks in a timely manner. 
 You are fully focused on your computer and don't know what is happening around you. 
 
-You hear ___<abbr title="Adhaaz">The Call</abbr>___ and you know that it is the time. Your eyes are still on screen and you want to finish whatever you are doing before you go to talk with **_The Creator_**. 
+You hear _<abbr title="Adhaan">The Call</abbr>_ and you know that it is the time. Your eyes are still on screen and you want to finish whatever you are doing before you go to talk with **_The Creator_**. 
 
 You think you can finish it in some minutes so you try to do it. 
 
@@ -15,7 +15,7 @@ While working, you suddenly remember that you were supposed to do something. But
 ## The problem
 This may not be a problem for many of you. It's also not a problem for me now, I have improved. However, the solution to this problem is still helpful for me. 
 
-There are also situations where you just don't hear _<abbr title="Adhaaz">The Call</abbr>_ at all (may be your place is so much away from the mosque) or you are in a crowded or rushy environment (unable to hear). 
+There are also situations where you just don't hear _<abbr title="Adhaan">The Call</abbr>_ at all (may be your place is so much away from the mosque) or you are in a crowded or rushy environment (unable to hear). 
 
 Whatever the case is, the truth is that you are not awake enough to know that it is _the time_.  
 
@@ -35,6 +35,5 @@ _I used Electron which is a cross-platform framework for building desktop apps w
 It worked for me and I know It can work for many of you. Using this application, I set it to notify me in different intervals starting many minutes before the actual prayer time. This helped me to **get ready and make my mind** beforehand. 
 
 ## Try it
-I have put the source code on [github](https://github.com/usamaejaz/prayertimes-desktop). You can grab the ready to run program for your OS by [clicking here](https://github.com/usamaejaz/prayertimes-desktop/releases)
-
+I have put the source code on [github](https://github.com/usamaejaz/prayertimes-desktop). You can grab the ready to run program for your OS by [clicking here](https://github.com/usamaejaz/prayertimes-desktop/releases). 
 You can make it sit in the background and it will help you whenever the time comes. 
