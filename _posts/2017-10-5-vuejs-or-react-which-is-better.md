@@ -19,7 +19,7 @@ For detailed comparison of Vue.js with other frameworks, [click here](https://vu
 
 This may seem like a biased opinion. Those who are already using React and are happy enough to stick with it may prefer React. It's just what works for you. Your choice can be different and that's perfectly fine (as long as you have reasons for that choice). 
 
-React has a very solid ecosystem. Vue.js is still growing but has managed to get enough community support. Vue.js is flexible, easier to learn and has the best of Angular and React. 
+React has a very solid ecosystem. Vue.js is still growing but has managed to get enough community support. Vue.js is flexible and easier to use and that's why It's highly recommended.
 
 **Vue.js has the best of React and AngularJS.** 
 
