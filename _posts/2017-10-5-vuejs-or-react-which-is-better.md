@@ -3,11 +3,16 @@ layout: post
 title: Vue.js or React, Which is Better?
 ---
 
-Vue.js is often compared to other libraries like React, Angular, Knockout, Ember etc. If you are a React fan, chances are that you may not agree with me. This post may look biased. For detailed comparison, [click here](https://vuejs.org/v2/guide/comparison.html). 
+Vue.js is often compared to other libraries like React, Angular, Knockout, Ember etc. If you are a React fan, chances are that you may not agree with me but that is fine. 
+
+For detailed comparison of Vue.js with other frameworks, [click here](https://vuejs.org/v2/guide/comparison.html). 
 
 > Roses are red,
+>
 > Violets are blue,
+>
 > React is dead.
+>
 > I like Vue.
 
 ## Why Vue.js
@@ -16,7 +21,7 @@ This may seem like a biased opinion. Those who are already using React and are h
 
 React has a very solid ecosystem. Vue.js is still growing but has managed to get enough community support. Vue.js is flexible, easier to learn and has the best of Angular and React. 
 
-> **Vue.js has the best of React and AngularJS.** 
+**Vue.js has the best of React and AngularJS.** 
 
 Vue.js has flexible nature. You don't need to mix HTML with Javascript (JSX), you don't need to spend too much time learning it (if you are newly adopting it) as compared to React. You get the best of React and Angular. 
 
