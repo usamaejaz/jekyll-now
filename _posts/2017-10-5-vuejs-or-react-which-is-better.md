@@ -33,7 +33,7 @@ Vue.js has a flexible nature. You don't need to mix HTML with Javascript (JSX), 
 
 Vue.js has a lot of _magic_ like mutable state and so on. You don't need to call `setState()` over and over which will render all things again, it's all handled automatically by Vue.js. 
 
-Vue.js is growing really fast and is topping React and Angular. As of writing this post, Vue.js has managed to go to the top with React and Angular being second and third on Google Trends. 
+Vue.js is growing really fast. It has managed to go to the top with React and Angular being second and third on Google Trends. 
 
 <div>
 
