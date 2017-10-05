@@ -7,6 +7,8 @@ Vue.js is often compared to other libraries like React, Angular, Knockout, Ember
 
 For detailed comparison of Vue.js with other frameworks, [click here](https://vuejs.org/v2/guide/comparison.html). 
 
+
+
 > Roses are red,
 >
 > Violets are blue,
@@ -15,17 +17,21 @@ For detailed comparison of Vue.js with other frameworks, [click here](https://vu
 >
 > I like Vue.
 
+_Found the above text somewhere on the internet, It looked so React-ive._
+
+
+
 ## Why Vue.js
 
 This may seem like a biased opinion. Those who are already using React and are happy enough to stick with it may prefer React. It's just what works for you. Your choice can be different and that's perfectly fine (as long as you have reasons for that choice). 
 
-React has a very solid ecosystem. Vue.js is still growing but has managed to get enough community support. Vue.js is flexible and easier to use and that's why It's highly recommended.
+React has a very solid ecosystem. Vue.js is still growing but has managed to get enough community support. Vue.js is faster and easier to use and that's why It's highly recommended for those who haven't decided which one to go with. This was also the reason for me to choose Vue.js over React. 
 
 **Vue.js has the best of React and AngularJS.** 
 
-Vue.js has flexible nature. You don't need to mix HTML with Javascript (JSX), you don't need to spend too much time learning it (if you are newly adopting it) as compared to React. You get the best of React and Angular. 
+Vue.js has a flexible nature. You don't need to mix HTML with Javascript (JSX), you don't need to spend too much time learning it (if you are newly adopting it) as compared to React. You get the best of React and Angular. 
 
-Vue.js also has mutable state and you don't need to call `setState()` again and again, it's all handled automatically by Vue.js. 
+Vue.js has a lot of _magic_ like mutable state and so on. You don't need to call `setState()` over and over which will render all things again, it's all handled automatically by Vue.js. 
 
 Vue.js is growing really fast and is topping React and Angular. As of writing this post, Vue.js has managed to go to the top with React and Angular being second and third on Google Trends. 
 
