@@ -10,11 +10,8 @@ For detailed comparison of Vue.js with other frameworks, [click here](https://vu
 
 
 > Roses are red,
->
 > Violets are blue,
->
 > React is dead.
->
 > I like Vue.
 
 _Found the above text somewhere on the internet, It looked so React-ive._
