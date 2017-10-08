@@ -18,7 +18,7 @@ html {
 }
 
 body {
-	background: $white;
+	background: $bodyBg;
   font: 18px/1.4 $helvetica;
   color: $darkGray;
 }
@@ -205,7 +205,7 @@ img {
 
 .site-description {
   margin: -5px 0 0 0;
-  color: $gray;
+  //color: $gray;
   font-size: 16px;
 
   @include mobile {
