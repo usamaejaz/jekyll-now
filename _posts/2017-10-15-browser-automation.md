@@ -79,3 +79,6 @@ Another port of PhantomJS for Internet Explorer. It uses the .NET WebBrowser Cla
 I wanted browser automation on Node. So, I decided to use __Nightmare__. Nightmare seems the best of all for now. Horseman is also a good option if you want to stick with PhantomJS. 
 
 Puppeteer is so new. Having checked them all, I think Nightmare is the way to go for now. It's flexible, fast and super easy to use. 
+
+Also see: [Headless Browsers (list)](https://github.com/dhamaniasad/HeadlessBrowsers)
+
