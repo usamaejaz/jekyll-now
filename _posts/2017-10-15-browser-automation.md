@@ -36,7 +36,7 @@ CasperJS was built to control PhantomJS or SlimerJS. CasperJS has a straightforw
 
 ### Selenium
 
-Selenium supports different browser engines including Firefox, Safari, IE, Chrome, PhantomJS etc. It has web-drivers written for multiple programming languages so you can use Selenium wherever you want. Selenium is specifically for cross browser automation which is the reason it supports multiple browsers.
+Selenium supports different browser engines including Firefox, Safari, Chrome, PhantomJS etc. It has web-drivers written for multiple programming languages so you can use Selenium wherever you want. Selenium is specifically for cross browser automation which is the reason it supports multiple browsers.
 
 [Official Website](http://www.seleniumhq.org/projects/webdriver/)
 
