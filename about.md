@@ -6,6 +6,8 @@ permalink: /about/
 
 This is the "About" page which is supposed to list all uncool and boring things about me. 
 
+[See my Résumé](/resume/)
+
 ### My major skills
 - PHP
 - Javascript (and NodeJS)
