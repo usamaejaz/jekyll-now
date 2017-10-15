@@ -1,0 +1,154 @@
+{
+    "basics": {
+        "name": "Usama Ejaz",
+        "label": "Full Stack Developer",
+        "summary": "I'm a full stack developer. I love working with modern and open source tools. I have had much experience in working on small to large-scale apps and projects.",
+        "email": "me@usamaejaz.com",
+        "website": "https://usamaejaz.com",
+        "location": {
+            "city": "Lahore",
+            "countryCode": "PK"
+        },
+        "profiles": [{
+                "username": "usamaejaz",
+                "url": "https://twitter.com/usamaejaz",
+                "network": "twitter"
+            },
+            {
+                "url": "https://github.com/usamaejaz",
+                "username": "usamaejaz",
+                "network": "github"
+            }
+        ]
+    },
+    "education": [{
+        "_endDate": "2009-12-12",
+        "startDate": "2017",
+        "area": "Management and Technology",
+        "studyType": "Bachelors",
+        "institution": "Information Technology University, Punjab"
+    }, {
+        "endDate": "2014",
+        "startDate": "2013",
+        "area": "Medical Sciences",
+        "studyType": "F.Sc.",
+        "institution": "Government College of Science, Wahdat Road"
+    }, {
+        "endDate": "2012",
+        "startDate": "2011",
+        "area": "Sciences",
+        "studyType": "Matriculation",
+        "institution": "Government Pilot Secondary School, Wahdat Road"
+    }],
+    "_references": [{
+            "reference": "Thomas was hired as a lead developer and, upon the leaving of our co-founder took over as CTO of Earbits. Thomas is, hands down, one of those A Players you hear of companies dying to hire. He is incredibly smart, not just at code but about everything from classical music to Chinese language and culture. Thomas is great to work with and, as a well established contributor to open source projects and several successful ventures, commands the respect of engineers at all levels. I would suggest doing anything you can to have him on your team.",
+            "name": "Joey Flores, Co-founder and CEO of Earbits, Inc."
+        },
+        {
+            "reference": "I've had the great pleasure of working with Thomas for the past three years at Earbits, and on a few side projects. Two years ago our CTO left on a moment's notice, Thomas saved our company by quickly stepping up to fill this role. He has been with our company through thick and thin and made serious personal sacrifices in order to help the company during tough times. He is a phenomenal hacker and a true team player. Highly recommended!",
+            "name": "Yotam Rosenbaum, SVP of Operations, Earbits, Inc."
+        },
+        {
+            "reference": "Thomas is an extremely talented engineer with a very broad range of skills and experience. From being a thought leader in the front-end community via backbonetutorials.com and cdnjs.com, to designing and implementing the API for cdnjs.com, working with Thomas has been fantastic learning experience. Thomas is truly a full stack develop, and his work output is incredible. If there is any opportunity to work with Thomas, I take it. He is the definition of an A player.",
+            "name": "Ryan Kirkman, Senior Software Engineer at Nerdwallet"
+        },
+        {
+            "reference": "On Thomas Davis ... Hire this guy. Do not be fooled. Incredibly capable and fast. Plays well with others. Unbelievable at front-end work end programming but that is just the start. Visionary. Hire him before I do.",
+            "name": "Greg Davis"
+        }
+    ],
+    "skills": [{
+            "keywords": [
+                "HTML",
+                "CSS",
+                "Javascript",
+                "VueJS",
+                "React",
+                "jQuery"
+            ],
+            "name": "Frontend"
+        },
+        {
+            "keywords": [
+                "NodeJS",
+                "PHP",
+                "Laravel"
+            ],
+            "name": "Backend"
+        },
+        {
+            "keywords": [
+                "Python",
+                "Java",
+                "C++"
+            ],
+            "name": "More"
+        }
+    ],
+    "work": [{
+            "highlights": [
+                "Built large-scale apps",
+                "Contributed towards Government projects",
+                "Open source contributions"
+            ],
+            "summary": "Glaxosoft is the next-gen IT solutions and services provider.",
+            "website": "http://glaxosoft.com",
+            "company": "Glaxosoft",
+            "position": "Founder",
+            "startDate": "2016"
+        },
+        {
+            "highlights": [
+                "One of the best customer support solutions in the market",
+                "Fast, efficient and super-easy to use than competitors"
+            ],
+            "summary": "Trakdesk is a fully customizable customer support platform with all the bells and whistles you would need to provide exceptional customer support. I worked on it from scratch.",
+            "website": "https://trakdesk.com",
+            "company": "Trakdesk",
+            "position": "Co-Founder",
+            "endDate": "2017",
+            "startDate": "2015"
+        },
+        {
+            "summary": "Noble Care Malaysia is Asia's best elderly care and nursing services provider. Operating homes and retirement resorts. ",
+            "website": "https://www.mynoblecare.com",
+            "company": "Noble Care Malaysia",
+            "position": "Web Developer",
+            "startDate": "2014"
+        }
+    ],
+    "awards": [{
+        "title": "Time Person Of The Year",
+        "date": "2006-12-25",
+        "awarder": "Time Magazine",
+        "summary": "Chosen as the Time Person Of The Year"
+    }],
+    "languages": [{
+        "language": "English",
+        "fluency": "Fluent"
+    }, {
+        "language": "Urdu",
+        "fluency": "Native speaker"
+    }, {
+        "language": "Arabic",
+        "fluency": "Learning"
+    }, {
+        "language": "Persian / Farsi",
+        "fluency": "Learning"
+    }],
+    "interests": [{
+        "name": "Literature",
+        "keywords": [
+            "Non-fiction",
+            "Poetry"
+        ]
+    }, {
+        "name": "Sufism",
+        "keywords": [
+            "Truth",
+            "Mysticism",
+            "Love",
+            "Knowledge"
+        ]
+    }]
+}
