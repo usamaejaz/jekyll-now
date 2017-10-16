@@ -99,12 +99,6 @@
             "startDate": "2014"
         }
     ],
-    "awards": [{
-        "title": "Time Person Of The Year",
-        "date": "2006-12-25",
-        "awarder": "Time Magazine",
-        "summary": "Chosen as the Time Person Of The Year"
-    }],
     "languages": [{
         "language": "English",
         "fluency": "Fluent"
