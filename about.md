@@ -4,6 +4,8 @@ title: About
 permalink: /about/
 ---
 
+<img src="{{ site.baseurl }}/images/usama-keyboard.jpg" alt="Usama Ejaz's keyboard" style="width: 100%;"/>
+
 My name is Usama Ejaz. I am from Lahore, Pakistan. I am a full stack developer when I am working and a student when I am learning. 
 
 [See my Résumé](/resume/)
