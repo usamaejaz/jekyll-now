@@ -5,7 +5,7 @@ title: Decoding Cloudflare-protected Emails
 
 You all know that Cloudflare protects your pages from bots and scrapers. It protects you from Email spam by hiding on-page emails and then using Javascript to decode them on page load. 
 
-This technique protects emails from bots which cannot execute Javascript. It will not protect emails from [real browsers]({{ site.baseurl }}/browser-automation/). Using a real browser may also be memory hungry and slower than some simple HTTP requests. 
+This technique protects emails from bots which cannot execute Javascript (but not from [real browsers]({{ site.baseurl }}/browser-automation/)).  
 
 In case you want your code to look beyond Cloudflare's email protection, you will have to decode the emails yourself. 
 
@@ -23,9 +23,9 @@ or this:
 
 _The encoded string like `543931142127353935313e352e7a373b39` or `5f323a1f2a2c3e323e3a353e25713c3032` in the above examples will give you original email once decoded._
 
-Cloudflare's Javascript to decode the emails is pretty simple (after beautifying of course). If you are on NodeJS, you can directly use the Javascript version of the decoder. If not, you can code the same implementation in whatever language you are using. 
+Cloudflare's Javascript to decode the emails is pretty simple (after beautifying of course). If you are on NodeJS, you can directly use the Javascript version of the decoder. If not, you can code the same implementation in your language. 
 
-Here are some implementations along with the pretty version of Cloudflare's javascript implementation.
+Here are some implementations along with the pretty version of Cloudflare's email decoder javascript implementation.
 
 ## Javascript
 
