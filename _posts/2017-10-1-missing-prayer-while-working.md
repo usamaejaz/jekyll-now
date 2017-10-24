@@ -3,8 +3,6 @@ layout: post
 title: My Solution to Not Miss A Prayer While Working on Computer
 ---
 
-<img src="{{ site.baseurl }}/images/prayertimes-desktop.png" alt="Prayer Times Desktop App" style="width: 100%;"/>
-
 There are a lot of things you need to do each day. You need to make sure you finish your tasks in a timely manner. 
 You are fully focused on your computer and don't know what is happening around you. 
 
@@ -37,5 +35,8 @@ _I used Electron which is a cross-platform framework for building desktop apps w
 It worked for me and I know It can work for many of you. Using this application, I set it to notify me in different intervals starting many minutes before the actual prayer time. This helped me to **get ready and make my mind** beforehand. 
 
 ## Try it
+
+[<img src="/images/prayertimes-desktop.png" alt="Prayer Times Desktop App" style="width: auto;border: 5px solid #ddd;">](https://github.com/usamaejaz/prayertimes-desktop)
+
 I have put the source code on [github](https://github.com/usamaejaz/prayertimes-desktop). You can grab the ready to run program for your OS by [clicking here](https://github.com/usamaejaz/prayertimes-desktop/releases). 
 You can make it sit in the background and it will help you whenever the time comes. 
