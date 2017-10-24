@@ -3,6 +3,8 @@ layout: post
 title: My Solution to Not Miss A Prayer While Working on Computer
 ---
 
+<img src="{{ site.baseurl }}/images/prayertimes-desktop.png" alt="Prayer Times Desktop App" style="width: 100%;"/>
+
 There are a lot of things you need to do each day. You need to make sure you finish your tasks in a timely manner. 
 You are fully focused on your computer and don't know what is happening around you. 
 
