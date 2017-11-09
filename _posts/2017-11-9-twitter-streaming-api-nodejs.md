@@ -3,9 +3,9 @@ layout: post
 title: Using Twitter Streaming API to track keywords on NodeJS
 ---
 
-<img src="{{ site.baseurl }}/images/twitter-streaming-api.png" alt="Twitter Streaming API on NodeJS" style="width: 100%;"/>
-
 While building a social automation and management tool, I wanted to test Twitter Streaming API on NodeJS. 
+
+<img src="{{ site.baseurl }}/images/twitter-streaming-api.png" alt="Twitter Streaming API on NodeJS" style="width: 100%;"/>
 
 There are a lot of npm modules available for Twitter but I went with [`twit`](https://github.com/ttezel/twit). `twit` looked easy to use and pretty simple. It supports Twitter's REST and streaming APIs. 
 
