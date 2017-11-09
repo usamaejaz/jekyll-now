@@ -3,7 +3,7 @@ layout: post
 title: Using Twitter Streaming API to track keywords on NodeJS
 ---
 
-<img src="{{ site.baseurl }}/images/twitter-streaming-api.png" alt="Twitter Streaming API on NodeJS" style="width: 400px;"/>
+<img src="{{ site.baseurl }}/images/twitter-streaming-api.png" alt="Twitter Streaming API on NodeJS" style="width: 100%;"/>
 
 While building a social automation and management tool, I wanted to test Twitter Streaming API on NodeJS. 
 
