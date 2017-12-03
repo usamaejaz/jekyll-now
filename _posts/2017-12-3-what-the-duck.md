@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Browser Extension To Replace Ducks - What The Duck
+image: /images/what-the-duck.png
 ---
 
 Too many ducks? Let's replace them to make the web a better place for duck lovers.

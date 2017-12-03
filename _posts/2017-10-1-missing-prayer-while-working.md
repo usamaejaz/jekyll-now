@@ -1,6 +1,7 @@
 ---
 layout: post
 title: My Solution to Not Miss A Prayer While Working on Computer
+image: /images/prayertimes-desktop.png
 ---
 
 There are a lot of things you need to do each day. You need to make sure you finish your tasks in a timely manner. 

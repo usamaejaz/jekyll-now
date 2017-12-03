@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Using Twitter Streaming API to track keywords on NodeJS
+image: /images/twitter-streaming-api.png
 ---
 
 While building a social automation and management tool, I wanted to test Twitter Streaming API on NodeJS. 
