@@ -33,12 +33,6 @@ Simple extension, simple features.
 
 _If you want to manually install the extension, the instructions are on [GitHub](https://github.com/usamaejaz/what-the-duck)._
 
-### Browser Support
-
-- Chrome
-- Firefox
-- Opera
-
 ### Open Sourced
 
 The code is open-sourced at [github](https://github.com/usamaejaz/what-the-duck) ([https://github.com/usamaejaz/what-the-duck](https://github.com/usamaejaz/what-the-duck)). 
