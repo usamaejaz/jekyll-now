@@ -9,13 +9,13 @@ Too many ducks? Let's replace them to make the web a better place for duck lover
 
 It was a simple day when I was working on a browser extension. On twitter, I saw someone tweeting about the idea of seeing "duck" everywhere on the internet instead of the <abbr title="F***">_F word_</abbr>. YES, why not. That will be fun.
 
-Seeing the internet being full of ducks will be fun, I thought. I started building the browser extension for doing this. The extension will replace every instance of the _F word_ with duck. So now, you all can enjoy an internet full of ducks. 
+Seeing the internet full of ducks will be fun, I thought. I started building the browser extension for doing this. The extension will replace every instance of the _F word_ with duck. So now, you all can enjoy an internet full of ducks. 
 
 
 
 ## What The Duck
 
-I created the cross-browser extension using the [extension boilerplate by EmailThis.me](https://github.com/EmailThis/extension-boilerplate). There are similar extensions like this created before like the ones which remove or replace trump from the internet (examples: [Make America Kittens Again](https://chrome.google.com/webstore/detail/make-america-kittens-agai/klchnmggepghlcolikgaekpibclpmgcm?hl=en) and [Trump Filter](https://chrome.google.com/webstore/detail/trump-filter/lhondapiaknegjpellpodegmeonigjic/reviews). 
+I created the cross-browser in some hours. There are similar extensions like this created before like the ones which remove or replace trump from the internet (examples: <a href="https://chrome.google.com/webstore/detail/make-america-kittens-agai/klchnmggepghlcolikgaekpibclpmgcm?hl=en" target="_blank">Make America Kittens Again</a> and <a href="https://chrome.google.com/webstore/detail/trump-filter/lhondapiaknegjpellpodegmeonigjic/reviews">Trump Filter</a>). 
 
 ### Features
 
