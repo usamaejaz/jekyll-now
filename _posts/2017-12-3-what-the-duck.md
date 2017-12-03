@@ -15,12 +15,11 @@ Seeing the internet full of ducks will be fun, I thought. I started building the
 
 ## What The Duck
 
-So, I created this cross-browser extension in some hours. There are similar extensions which remove or replace some words / content from the internet (examples: <a href="https://chrome.google.com/webstore/detail/make-america-kittens-agai/klchnmggepghlcolikgaekpibclpmgcm?hl=en" target="_blank">Make America Kittens Again</a> and <a href="https://chrome.google.com/webstore/detail/trump-filter/lhondapiaknegjpellpodegmeonigjic/reviews">Trump Filter</a>). 
+So, I created this cross-browser extension in some hours. There are similar extensions which remove or replace some words / content from the internet (examples: <a href="https://chrome.google.com/webstore/detail/make-america-kittens-agai/klchnmggepghlcolikgaekpibclpmgcm?hl=en" target="_blank">Make America Kittens Again</a> and <a href="https://chrome.google.com/webstore/detail/trump-filter/lhondapiaknegjpellpodegmeonigjic?hl=en">Trump Filter</a>). 
 
 ### Features
 
 Simple extension, simple features. 
-
 - Replace all instances of the _F word_
 - You can exclude various sites
 - Shows the count of ducks found on page
@@ -28,9 +27,7 @@ Simple extension, simple features.
 ### Install
 
 - [Chrome](https://chrome.google.com/webstore/detail/what-the-duck/akcgddilpnbanfbhndpkfcfaemahiacg)
-
 - [Firefox](https://addons.mozilla.org/en-US/developers/addon/what-the-duck)
-
 - [Opera](https://addons.opera.com/en/extensions/details/what-the-duck/)
 
 _If you want to manually install the extension, the instructions are on [GitHub](https://github.com/usamaejaz/what-the-duck)._
