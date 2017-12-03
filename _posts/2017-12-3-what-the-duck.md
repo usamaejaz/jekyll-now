@@ -15,7 +15,7 @@ Seeing the internet full of ducks will be fun, I thought. I started building the
 
 ## What The Duck
 
-I created the cross-browser in some hours. There are similar extensions like this created before like the ones which remove or replace trump from the internet (examples: <a href="https://chrome.google.com/webstore/detail/make-america-kittens-agai/klchnmggepghlcolikgaekpibclpmgcm?hl=en" target="_blank">Make America Kittens Again</a> and <a href="https://chrome.google.com/webstore/detail/trump-filter/lhondapiaknegjpellpodegmeonigjic/reviews">Trump Filter</a>). 
+So, I created this cross-browser extension in some hours. There are similar extensions which remove or replace some words / content from the internet (examples: <a href="https://chrome.google.com/webstore/detail/make-america-kittens-agai/klchnmggepghlcolikgaekpibclpmgcm?hl=en" target="_blank">Make America Kittens Again</a> and <a href="https://chrome.google.com/webstore/detail/trump-filter/lhondapiaknegjpellpodegmeonigjic/reviews">Trump Filter</a>). 
 
 ### Features
 
