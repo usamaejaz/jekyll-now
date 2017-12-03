@@ -2,6 +2,7 @@
 layout: page
 title: About
 permalink: /about/
+image: /images/usama-keyboard.jpg
 ---
 
 <img src="{{ site.baseurl }}/images/usama-keyboard.jpg" alt="Usama Ejaz's keyboard" style="width: 100%;"/>
