@@ -28,7 +28,7 @@ Simple extension, simple features.
 ### Install
 
 - [Chrome](https://chrome.google.com/webstore/detail/what-the-duck/akcgddilpnbanfbhndpkfcfaemahiacg)
-- [Firefox](https://addons.mozilla.org/en-US/developers/addon/what-the-duck)
+- [Firefox](https://addons.mozilla.org/en-US/firefox/addon/what-the-duck/)
 - [Opera](https://addons.opera.com/en/extensions/details/what-the-duck/)
 
 _If you want to manually install the extension, the instructions are on [GitHub](https://github.com/usamaejaz/what-the-duck)._
