@@ -6,12 +6,12 @@ image: /images/me.jpg
 ---
 
 <div>
+	<div class="about-image">
+		<img src="/images/me.jpg" alt="Usama Ejaz" title="This is me" />
+	</div>
 	<div class="about-text">
 		<p>My name is Usama Ejaz. I am from Lahore, Pakistan. I am a full stack developer when I am working and a student when I am learning.</p>
 		<p><a href="/resume/">See my Résumé</a></p>
-	</div>
-	<div class="about-image">
-		<img src="/images/me.jpg" alt="Usama Ejaz" />
 	</div>
 </div>
 <div class="clearfix"></div>
