@@ -10,19 +10,26 @@ image: /images/me.jpg
 		<img src="/images/me.jpg" alt="Usama Ejaz" title="This is me" />
 	</div>
 	<div class="about-text">
-		<p>My name is Usama Ejaz. I am from Lahore, Pakistan. I am a full stack developer when I am working and a student when I am learning.</p>
-		<p><a href="/resume/">See my Résumé</a></p>
+		<p>My name is Usama Ejaz. I am a full stack developer from Lahore, Pakistan. Most of my time revolves around writing code, a lot of it. I build things, solve problems, play games and read.</p>
 	</div>
 </div>
 <div class="clearfix"></div>
 
-## Professional Skills
-I am a full stack developer. Most of my working days revolve around writing code. My major expertise and interest lies in the following programming languages. 
-- PHP
-- Javascript (and NodeJS)
+I love learning new things and playing with new technologies, projects and tools. I also have some side projects which you can find on github or on this website. 
 
-## More Information
-Apart from doing whatever you think I do, I enjoy reading books, playing games, doing crazy things, learning new languages and behaviors.
+My major expertise and interest lies in the following programming languages. 
+- **PHP**
+- **Javascript** (and **NodeJS**)
 
-## Contact me
-If you want to exchange some messages, write to me at [me@usamaejaz.com](me@usamaejaz.com)
+Other programming languages I can work with are **Python**, **Java** and some others. 
+
+When I am not working, I enjoy reading books, playing games, doing crazy things, learning new languages and behaviors.
+
+## Contact Me
+If you want to discuss something or just say **_Hi_**, write an email to [me@usamaejaz.com](mailto:me@usamaejaz.com). 
+
+## Elsewhere
+There are more channels to connect with me other than email. Look for the links at the bottom of this page.
+
+## More Details
+If you are interested in knowing more about, [See my Résumé](/resume/).
