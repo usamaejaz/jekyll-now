@@ -293,11 +293,15 @@ nav {
   list-style: none;
   margin-left: 0;
   padding-left: 0;
+  .title {
+    display: block;
+  }
   .date {
-    margin-right: 50px;
     font-size: 0.8em;
     text-transform: uppercase;
     font-style: normal;
+    display: block;
+    text-align: right;
   }
 }
 

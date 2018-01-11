@@ -15,10 +15,10 @@ layout: default
 </div>
 <hr/>
 <ul class="posts-list">
-  {% for post in site.posts limit:5 %}
-  <li>
-    <span class="date">{{ post.date | date_to_string }}</span>
-    <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-  </li>
-  {% endfor %}
+    {% for post in site.posts limit:5 %}
+    <li>
+        <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+        <span class="date">{{ post.date | date_to_string }}</span>
+    </li>
+    {% endfor %}
 </ul>
