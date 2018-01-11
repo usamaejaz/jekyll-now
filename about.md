@@ -26,7 +26,7 @@ Other programming languages I can work with are **Python**, **Java** and some ot
 When I am not working, I enjoy reading books, playing games, doing crazy things, learning new languages and behaviors.
 
 ## Contact Me
-If you want to discuss something or just say **_Hi_**, write an email to [me@usamaejaz.com](mailto:me@usamaejaz.com). 
+If you want to discuss something or just say _Hi_, write an email to [me@usamaejaz.com](mailto:me@usamaejaz.com). 
 
 ## Elsewhere
 There are more channels to connect with me other than email. Look for the links at the bottom of this page.
