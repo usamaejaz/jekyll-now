@@ -265,6 +265,21 @@ nav {
 // .main
 //
 
+.about-me {
+  text-align: center;
+}
+
+.posts-list {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+  .date {
+    margin-right: 50px;
+    font-size: 0.8em;
+    text-transform: uppercase;
+  }
+}
+
 .posts > .post {
   padding-bottom: 2em;
   border-bottom: 1px solid $lightGray;

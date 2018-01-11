@@ -2,17 +2,22 @@
 layout: default
 ---
 
-<div class="posts">
-  {% for post in site.posts %}
-    <article class="post">
-
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-
-      <div class="entry">
-        {{ post.excerpt }}
-      </div>
-
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-    </article>
-  {% endfor %}
+<div class="about-me">
+    <h1>
+        Hello. I'm Usama.
+    </h1>
+    <p>
+        I am a software developer who loves writing code, building things and solving problems. <br/>
+        <a href="{{ site.baseurl }}/about/">More about Usama</a>
+    </p>
 </div>
+<hr/>
+<h3>Recent posts</h3>
+<ul class="posts-list">
+  {% for post in site.posts limit:5 %}
+  <li>
+    <span class="date">{{ post.date | date_to_string }}</span>
+    <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+  </li>
+  {% endfor %}
+</ul>
