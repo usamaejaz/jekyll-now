@@ -269,7 +269,7 @@ nav {
     border-left: 1px solid #666;
     margin-left: 20px;
     @include mobile {
-      margin-left: 10px;
+      margin-left: 0;
     }
   }
 
