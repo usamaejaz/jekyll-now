@@ -278,8 +278,15 @@ nav {
 
 .about-me {
   text-align: center;
+  padding: 20px;
   .name {
-    font-size: 110%
+    font-size: 160%
+  }
+  .intro {
+    text-align: left;
+  }
+  .know-more {
+    text-align: right;
   }
 }
 
