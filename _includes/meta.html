@@ -15,9 +15,6 @@
     {% elsif page.excerpt %}
     <meta name="description" content="{{ page.excerpt| strip_html }}" />
     <meta property="og:description" content="{{ page.excerpt| strip_html }}" />
-    {% else %}
-    <meta name="description" content="{{ site.description }}">
-    <meta property="og:description" content="{{ site.description }}" />
     {% endif %}
     <meta name="author" content="{{ site.name }}" />
     <meta name="twitter:card" content="summary_large_image" />
@@ -32,7 +29,10 @@
     {% endif %}
     {% if page.image %}
     <meta property="og:image" content="{{ site.url }}{{ page.image }}" />
-    <meta name="twitter:image" content="{{ site.url }}{{ page.image }}" />    
+    <meta name="twitter:image" content="{{ site.url }}{{ page.image }}" />
+    {% else %}}
+    <meta property="og:image" content="{{ site.url }}/images/usama-keyboard.jpg" />
+    <meta name="twitter:image" content="{{ site.url }}/images/usama-keyboard.jpg" />
     {% endif %}
     {% if page.url %}
     <meta content="{{ site.url }}{{ page.url }}" property="og:url" />
