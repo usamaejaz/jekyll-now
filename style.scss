@@ -222,11 +222,6 @@ hr {
   }
 }
 
-.nav-separator {
-  border-left: 1px solid #666;
-  margin-left: 20px;
-}
-
 .about-text {
     float: left;
     max-width: 560px;
@@ -269,6 +264,15 @@ nav {
       color: $blue;
     }
   }
+
+  .nav-separator {
+    border-left: 1px solid #666;
+    margin-left: 20px;
+    @include mobile {
+      margin-left: 10px;
+    }
+  }
+
 }
 
 //
