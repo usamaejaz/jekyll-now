@@ -284,7 +284,10 @@ nav {
   h1 {
     text-align: center;
     .name {
-      font-size: 160%
+      font-size: 160%;
+      &:hover {
+        text-decoration: underline;
+      }
     }
   }
 }
