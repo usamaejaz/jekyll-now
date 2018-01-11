@@ -17,8 +17,9 @@ layout: default
 <ul class="posts-list">
     {% for post in site.posts limit:5 %}
     <li>
-        <a class="title" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
         <span class="date">{{ post.date | date_to_string }}</span>
+        <a class="title" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+        <span class="date-mobile">{{ post.date | date_to_string }}</span>
     </li>
     {% endfor %}
 </ul>
