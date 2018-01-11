@@ -3,13 +3,15 @@ layout: default
 ---
 
 <div class="about-me">
+    <h1>
+        Hello. I am <span class="name">Usama</span>.
+    </h1>
     <p>
-        I am a software developer who loves <br/> writing code, building things and solving problems. <br/>
-        <a href="{{ site.baseurl }}/about/">More about Usama</a>
+        I am a software developer who loves writing code, building things and solving problems. <br/>
+        <a href="{{ site.baseurl }}/about/">Know More</a>
     </p>
 </div>
 <hr/>
-<h3>Recent posts</h3>
 <ul class="posts-list">
   {% for post in site.posts limit:5 %}
   <li>
