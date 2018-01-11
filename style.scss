@@ -114,6 +114,11 @@ pre {
   overflow: auto;
 }
 
+hr {
+  border: 0;
+  border-bottom: 1px solid #ddd;
+}
+
 // Fixes images in popup boxes from Google Translate
 .gmnoprint img {
   max-width: none;
