@@ -1,130 +1,173 @@
 {
-    "basics": {
-        "name": "Usama Ejaz",
-        "label": "Full Stack Developer",
-        "summary": "I'm a full stack developer. I love working with modern and open source tools. I have had much experience in working on small to large-scale apps and projects.",
-        "email": "me@usamaejaz.com",
-        "website": "https://usamaejaz.com",
-        "location": {
-            "city": "Lahore",
-            "countryCode": "PK"
-        },
-        "profiles": [{
-                "username": "usamaejaz",
-                "url": "https://twitter.com/usamaejaz",
-                "network": "twitter"
-            },
-            {
-                "url": "https://github.com/usamaejaz",
-                "username": "usamaejaz",
-                "network": "github"
-            }
-        ]
+  "basics": {
+    "name": "Usama Ejaz",
+    "label": "Full Stack Developer",
+    "summary": "I'm a full stack developer. I love working with modern and open source technologies. I have had much experience in working on small to large-scale apps and projects.",
+    "email": "me@usamaejaz.com",
+    "website": "https://usamaejaz.com",
+    "location": {
+      "city": "Lahore",
+      "countryCode": "PK"
     },
-    "education": [{
-        "startDate": "2017",
-        "area": "Management and Technology",
-        "studyType": "Bachelors",
-        "institution": "Information Technology University, Punjab"
-    }, {
-        "endDate": "2014",
-        "startDate": "2013",
-        "area": "Medical Sciences",
-        "studyType": "F.Sc.",
-        "institution": "Government College of Science, Wahdat Road"
-    }, {
-        "endDate": "2012",
-        "startDate": "2011",
-        "area": "Sciences",
-        "studyType": "Matriculation",
-        "institution": "Government Pilot Secondary School, Wahdat Road"
-    }],
-    "skills": [{
-            "keywords": [
-                "HTML",
-                "CSS",
-                "Javascript",
-                "VueJS",
-                "React",
-                "jQuery"
-            ],
-            "name": "Frontend"
-        },
-        {
-            "keywords": [
-                "NodeJS",
-                "PHP",
-                "Laravel"
-            ],
-            "name": "Backend"
-        },
-        {
-            "keywords": [
-                "Python",
-                "Java",
-                "C++"
-            ],
-            "name": "More"
-        }
-    ],
-    "work": [{
-            "highlights": [
-                "Built large-scale apps",
-                "Contributed towards Government projects",
-                "Open source contributions"
-            ],
-            "summary": "Glaxosoft is the next-gen IT solutions and services provider.",
-            "website": "http://glaxosoft.com",
-            "company": "Glaxosoft",
-            "position": "Founder",
-            "startDate": "2016"
-        },
-        {
-            "highlights": [
-                "One of the best customer support solutions in the market",
-                "Fast, efficient and super-easy to use than competitors"
-            ],
-            "summary": "Trakdesk is a fully customizable customer support platform with all the bells and whistles you would need to provide exceptional customer support. I worked on it from scratch.",
-            "website": "https://trakdesk.com",
-            "company": "Trakdesk",
-            "position": "Co-Founder",
-            "endDate": "2017",
-            "startDate": "2015"
-        },
-        {
-            "summary": "Noble Care Malaysia is Asia's best elderly care and nursing services provider. Operating homes and retirement resorts. ",
-            "website": "https://www.mynoblecare.com",
-            "company": "Noble Care Malaysia",
-            "position": "Web Developer",
-            "startDate": "2014"
-        }
-    ],
-    "languages": [{
-        "language": "English",
-        "fluency": "Fluent"
-    }, {
-        "language": "Urdu",
-        "fluency": "Native speaker"
-    }, {
-        "language": "Arabic",
-        "fluency": "Learning"
-    }, {
-        "language": "Persian / Farsi",
-        "fluency": "Learning"
-    }],
-    "interests": [{
-        "name": "Literature",
-        "keywords": [
-            "Non-fiction",
-            "Poetry"
-        ]
-    }, {
-        "name": "Sufism",
-        "keywords": [
-            "Truth",
-            "Mysticism",
-            "Love",
-            "Knowledge"
-        ]
-    }]
+    "profiles": [
+      {
+        "username": "usamaejaz",
+        "url": "https://twitter.com/usamaejaz",
+        "network": "twitter"
+      },
+      {
+        "url": "https://github.com/usamaejaz",
+        "username": "usamaejaz",
+        "network": "github"
+      }
+    ]
+  },
+  "education": [
+    {
+      "startDate": "2017",
+      "area": "Management and Technology",
+      "studyType": "Bachelors",
+      "institution": "Information Technology University, Punjab"
+    },
+    {
+      "endDate": "2014",
+      "startDate": "2013",
+      "area": "Medical Sciences",
+      "studyType": "F.Sc.",
+      "institution": "Government College of Science, Wahdat Road"
+    },
+    {
+      "endDate": "2012",
+      "startDate": "2011",
+      "area": "Sciences",
+      "studyType": "Matriculation",
+      "institution": "Government Pilot Secondary School, Wahdat Road"
+    }
+  ],
+  "skills": [
+    {
+      "keywords": [
+        "HTML",
+        "CSS",
+        "Javascript",
+        "VueJS",
+        "React"
+      ],
+      "name": "Frontend",
+      "level": "Master"
+    },
+    {
+      "keywords": [
+        "Linux / *nix",
+        "Cloud Computing",
+        "Infrastructure",
+        "Performance",
+        "Scaling"
+      ],
+      "name": "System"
+    },
+    {
+      "keywords": [
+        "NodeJS",
+        "PHP",
+        "Laravel"
+      ],
+      "name": "Backend",
+      "level": "Master"
+    },
+    {
+      "keywords": [
+        "Python",
+        "Java",
+        "C++"
+      ],
+      "name": "More",
+      "level": "Intermediate"
+    }
+  ],
+  "work": [
+    {
+      "highlights": [
+        "→ Want to discuss about your project? Visit glaxosoft.com",
+        "Built large-scale apps",
+        "Contributed towards Government projects",
+        "Open source contributions"
+      ],
+      "summary": "The next-gen software company. I am responsible for running several projects under the company.",
+      "website": "https://glaxosoft.com",
+      "company": "Glaxosoft",
+      "position": "Founder",
+      "startDate": "2016"
+    },
+    {
+      "highlights": [
+        "One of the best customer support solutions in the market",
+        "Fast, efficient and super-easy to use"
+      ],
+      "summary": "A fully customized customer support solution. I worked on Trakdesk since it was born. Major languages I wrote code in were Javascript and PHP. I was responsible for almost all of the Javascript code for the project.",
+      "website": "https://trakdesk.com",
+      "company": "Trakdesk",
+      "position": "Co-Founder",
+      "endDate": "2017",
+      "startDate": "2015"
+    },
+    {
+      "summary": "SaSa is a Hong Kong-based chain store company. I analyzed performance issues and provided solutions to maximize their infrastructure's performance.",
+      "website": "http://sasa.com",
+      "company": "Sa Sa International Holdings",
+      "position": "Performance Analyst"
+    },
+    {
+      "summary": "AdReport is an advertising monitoring company. I build NodeJS based spiders / bots for monitoring ads on several channels.",
+      "website": "http://adreport.com",
+      "company": "AdReport",
+      "position": "Developer"
+    },
+    {
+      "summary": "Etisalat is one of the largest telecommunications companies in the world. My part was to build the program using NodeJS to execute some operator transactions smoothly and faster.",
+      "website": "http://www.etisalat.af",
+      "company": "Etisalat Afghanistan",
+      "position": "Developer"
+    },
+    {
+      "company": "Freelance Developer",
+      "summary": "Throughout my time, I was involved with a number of interesting freelance projects."
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Fluent"
+    },
+    {
+      "language": "Urdu",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "Arabic",
+      "fluency": "Learning"
+    },
+    {
+      "language": "Persian / Farsi",
+      "fluency": "Learning"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Literature",
+      "keywords": [
+        "Non-fiction",
+        "Poetry"
+      ]
+    },
+    {
+      "name": "Sufism",
+      "keywords": [
+        "Truth",
+        "Mysticism",
+        "Love",
+        "Knowledge"
+      ]
+    }
+  ]
 }
