@@ -52,5 +52,56 @@
 
     {% include analytics.html %}
     <!-- Go to www.addthis.com/dashboard to customize your tools --> <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-59ff639694f0773d"></script>
+    {% if page.is_main %}
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.6/typed.min.js"></script>
+      <script defer>
+        (function(){
+          new Typed('#typed-elem', {
+            strings: [
+              "I build software^2000",
+              "I write code^1000",
+              "I write bugs ^1000and call them features^1000",
+              "I know multiple programming languages^2000 like Javascript, PHP, Python, Java and <abbr title='I dont want to talk about them since they are not my interest'>some others<\/abbr>^3000",
+              "",
+              "I mostly work with Javascript and NodeJS. For frontend, I use VueJS (and React). ^3000 PHP is also my major programming language. The PHP framework I mostly work with (and prefer) is Laravel^3000",
+              "",
+              "I am working with different modern technologies everyday and I like learning new things^500",
+              "",
+              "In my free time, I read books^1000",
+              "In my free time, I read poetry^1000",
+              "",
+              "I don't know what more I should talk about...^1000",
+              "",
+              // i am not responsible for the following
+              "I laav^500... ^1000emmm...^2000 chalo choro... kuch nai^2000",
+              "What more can I say...^1000",
+              "I love <abbr title='Beloved'>The Friend<\/abbr>",
+              "I love <abbr title='the idea of Love'>Love<\/abbr>",
+              "",
+              "I am nothing^500...^1000",
+              "",
+              "I am not this body^1000",
+              "",
+              "I am the soul^1000 that lives^1000 within this body",
+              "I am nothing^1000 yet I am ^500everything^1000",
+              "I have no idea what I am talking about.^1000 Anyway...",
+              "Stay blessed.^3000",
+              "^30000You know what?^1000 I don't know if someone has told you this but^1000 you are awesome `🤗`."
+            ],
+            showCursor: true,
+            typeSpeed: 60,
+            backSpeed: 15,
+            backDelay: 500,
+            startDelay: 1000,
+            onComplete: function(typed){
+              typed.stop();
+              try {
+                document.getElementsByClassName("typed-cursor")[0].style.display = 'none';
+              } catch(e){}
+            }
+          });
+        })();
+      </script>
+    {% endif %}
   </body>
 </html>
