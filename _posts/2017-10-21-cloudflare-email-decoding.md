@@ -94,8 +94,63 @@ func main() {
 }
 ```
 
-[1]: https://gist.github.com/AbeEstrada/11e4511f9915b00f9714	"Go Implementation take from this gist"
+## C++
+
+```cpp
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+string cfDecodeEmail(string encodedString);
+
+int main()
+{
+    cout << cfDecodeEmail("543931142127353935313e352e7a373b39") << endl;
+}
+
+string cfDecodeEmail(string encodedString)
+{
+    string email;
+    char xorKey = stoi( encodedString.substr(0, 2), nullptr, 16);
+    for( unsigned i = 2; i < encodedString.length(); i += 2)
+        email += stoi( encodedString.substr(i, 2), nullptr, 16) ^ xorKey;
+
+    return email;
+}
+```
+
+## C# #
+
+```csharp
+using System;
+
+public class Program
+{
+	public static string cfDecodeEmail(string encodedString)
+	{
+		string email = "";
+		int r = Convert.ToInt32(encodedString.Substring(0, 2), 16), n, i;
+		for (n = 2; encodedString.Length - n > 0; n += 2)
+		{
+			i = Convert.ToInt32(encodedString.Substring(n, 2), 16) ^ r;
+			char character = (char)i;
+			email += Convert.ToString(character);
+		}
+
+		return email;
+	}
+
+	public static void Main(string[] args)
+	{
+		Console.WriteLine(cfDecodeEmail("543931142127353935313e352e7a373b39")); // usage
+	}
+}
+```
+
+[1]: https://gist.github.com/AbeEstrada/11e4511f9915b00f9714	"Go Implementation taken from this gist"
 [2]: http://blog.safebuff.com/2016/06/01/Cloudflare-Email-Protection-Decoder/	"PHP / Python implementation taken from safebuff.com"
+[3]: https://raddle.me/f/Privacy/3722/how-to-circumvent-cloudflare-s-email-protected-thing-without	"C++ implementation taken from here"
 
 ---
 
