@@ -21,7 +21,7 @@ chrome.webRequest.onHeadersReceived.addListener(info => {
     // return modified headers
     return {responseHeaders: headers};
 }, {
-	urls: [ "<all_urls>" ], // match all pages
+    urls: [ "<all_urls>" ], // match all pages
     types: [ "sub_frame" ]
 }, ["blocking", "responseHeaders"]);
 ```
@@ -61,7 +61,7 @@ chrome.webRequest.onHeadersReceived.addListener(info => {
     // return modified headers
     return {responseHeaders: headers};
 }, {
-	urls: [ "<all_urls>" ], // match all pages
+    urls: [ "<all_urls>" ], // match all pages
     types: [ "sub_frame" ]
 }, ["blocking", "responseHeaders"]);
 ```
