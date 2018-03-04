@@ -3,7 +3,7 @@ layout: post
 title: Securely Bypassing X-Frame-Options or Content-Security-Policy in WebExtension
 ---
 
-To embed third party content using `iframe`, the WebExtension has to intercept HTTP response and modify headers but isn't it bad in terms of security? That's what I thought. 
+To embed third party content using `iframe`, the WebExtension may need to intercept HTTP response and modify headers but isn't it bad in terms of security? That's what I thought. 
 
 ## Bypassing X-Frame-Options
 
