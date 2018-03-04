@@ -22,8 +22,8 @@ is_main: true
     <li>
         <span class="date">{{ post.date | date_to_string }}</span>
         <a class="title" href="{{ site.baseurl }}{{ post.url }}">
-            {% if post.title.size > 61 %}
-                {{ post.title | truncatewords: 61 }}...
+            {% if post.title.size > 45 %}
+                {{ post.title | truncatewords: 45 }}...
             {% else %}
                 {{ post.title }}
             {% endif %}
