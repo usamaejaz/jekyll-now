@@ -21,7 +21,13 @@ is_main: true
     {% for post in site.posts limit:5 %}
     <li>
         <span class="date">{{ post.date | date_to_string }}</span>
-        <a class="title" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+        <a class="title" href="{{ site.baseurl }}{{ post.url }}">
+            {% if  post.title | size > 61 %}
+                {{ post.title | truncatewords: 61 }}...
+            {% else %}
+                {{ post.title }}
+            {% endif %}
+        </a>
         <span class="date-mobile">{{ post.date | date_to_string }}</span>
     </li>
     {% endfor %}
