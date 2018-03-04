@@ -22,11 +22,7 @@ is_main: true
     <li>
         <span class="date">{{ post.date | date_to_string }}</span>
         <a class="title" href="{{ site.baseurl }}{{ post.url }}">
-            {% if post.title.size > 64 %}
-                {{ post.title | truncate: 64 }}...
-            {% else %}
-                {{ post.title }}
-            {% endif %}
+            {{ post.title | truncate: 64 }}
         </a>
         <span class="date-mobile">{{ post.date | date_to_string }}</span>
     </li>
