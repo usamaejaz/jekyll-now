@@ -1,108 +1,144 @@
-<!-- {{ site.url }} -->
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>{% if page.title %}{{ page.title }} – {{ site.name }}{% else %}{{ site.name }} – {{ site.description }}{% endif %}</title>
 
-    {% include meta.html %}
+<head>
+  <title>{% if page.title %}{{ page.title }} – {{ site.name }}{% else %}{{ site.name }} – {{ site.description }}{% endif %}</title>
 
-    <!--[if lt IE 9]>
+  {% include meta.html %}
+
+  <!--[if lt IE 9]>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
     <![endif]-->
 
-    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
-    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
-    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
-    <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
-  </head>
+  <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
+  <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml"
+  />
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+  <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+  <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
 
-  <body>
-    <div class="wrapper-masthead">
-      <div class="container">
-        <header class="masthead clearfix">
-          <!-- <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a> -->
+  {% if page.is_main %}
+  <script type="application/ld+json">
+    {
+      "@context": "http://schema.org/",
+      "@type": "Person",
+      "name": "Usama Ejaz",
+      "alternateName": "Usama Ejaz Chaudhry",
+      "url": "https://usamaejaz.com",
+      "image": "https://usamaejaz.com/images/me.jpg",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Lahore",
+        "addressRegion": "Punjab",
+        "addressCountry": "Pakistan"
+      },
+      "email": "me@usamaejaz.com",
+      "birthDate": "1996-08-20",
+      "sameAs": [
+        "https://twitter.com/usamaejaz",
+        "https://www.instagram.com/usamaejazch/",
+        "https://github.com/usamaejaz/",
+        "https://usamaejaz.com/about/",
+        "https://usamaejaz.com/resume/"
+      ],
+      "jobTitle": "Full Stack Developer",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Glaxosoft"
+      }  
+    }
+  </script> {% endif %}
 
-          <div class="site-info">
-            <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
-            <p class="site-description">{{ site.description }}</p>
-          </div>
+</head>
 
-          <nav>
-            <a href="{{ site.baseurl }}/">Home</a>
-            <a href="{{ site.baseurl }}/blog/">Blog</a>
-            <a href="{{ site.baseurl }}/about/">About</a>
-            <span class="nav-separator"></span>
-            <a href="{{ site.baseurl }}/resume/" target="_blank">Resume</a>
-          </nav>
-        </header>
-      </div>
+<body>
+  <div class="wrapper-masthead">
+    <div class="container">
+      <header class="masthead clearfix">
+        <!-- <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a> -->
+
+        <div class="site-info">
+          <h1 class="site-name">
+            <a href="{{ site.baseurl }}/">{{ site.name }}</a>
+          </h1>
+          <p class="site-description">{{ site.description }}</p>
+        </div>
+
+        <nav>
+          <a href="{{ site.baseurl }}/">Home</a>
+          <a href="{{ site.baseurl }}/blog/">Blog</a>
+          <a href="{{ site.baseurl }}/about/">About</a>
+          <span class="nav-separator"></span>
+          <a href="{{ site.baseurl }}/resume/" target="_blank">Resume</a>
+        </nav>
+      </header>
     </div>
+  </div>
 
-    <div id="main" role="main" class="container">
-      {{ content }}
+  <div id="main" role="main" class="container">
+    {{ content }}
+  </div>
+
+  <div class="wrapper-footer">
+    <div class="container">
+      <footer class="footer">
+        {% include svg-icons.html %}
+      </footer>
     </div>
+  </div>
 
-    <div class="wrapper-footer">
-      <div class="container">
-        <footer class="footer">
-          {% include svg-icons.html %}
-        </footer>
-      </div>
-    </div>
+  {% include analytics.html %}
+  <!-- Go to www.addthis.com/dashboard to customize your tools -->
+  <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-59ff639694f0773d"></script> {% if page.is_main %}
+  <script src="//cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.6/typed.min.js"></script>
+  <script defer>
+    (function () {
+      new Typed('#typed-elem', {
+        strings: [
+          "I build software^2000",
+          "I write code^1000",
+          "I write bugs ^1000and call them features^1000",
+          "I know multiple programming languages^2000 like Javascript, PHP, Python, Java and <abbr title='I dont want to talk about them since they are not my interest'>some others<\/abbr>^3000",
+          "",
+          "I mostly work with Javascript and NodeJS. For frontend, I use VueJS (and React). ^3000 PHP is also my major programming language. The PHP framework I mostly work with (and prefer) is Laravel^3000",
+          "",
+          "I am working with different modern technologies everyday and I like learning new things^500",
+          "",
+          "In my free time, I read books^1000",
+          "In my free time, I read poetry^1000",
+          "",
+          "I don't know what more I should talk about...^1000",
+          "",
+          // i am not responsible for the following
+          "I laav^500... ^1000emmm...^2000 chalo choro... kuch nai^2000",
+          "What more can I say...^1000",
+          "I love <abbr title='Beloved'>The Friend<\/abbr>",
+          "I love <abbr title='the idea of Love'>Love<\/abbr>",
+          "",
+          "I am nothing^500...^1000",
+          "",
+          "I am not this body^1000",
+          "",
+          "I am the soul^1000 that lives^1000 within this body",
+          "I am nothing^1000 yet I am ^500everything^1000",
+          "I have no idea what I am talking about.^1000 Anyway...",
+          "Stay blessed.^30000",
+          "You know what?^1000 I don't know if someone has told you this but^1000 you are awesome `🤗`."
+        ],
+        showCursor: true,
+        typeSpeed: 60,
+        backSpeed: 15,
+        backDelay: 500,
+        startDelay: 1000,
+        onComplete: function (typed) {
+          typed.stop();
+          try {
+            document.getElementsByClassName("typed-cursor")[0].style.display = 'none';
+          } catch (e) { }
+        }
+      });
+    })();
+  </script> {% endif %}
+</body>
 
-    {% include analytics.html %}
-    <!-- Go to www.addthis.com/dashboard to customize your tools --> <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-59ff639694f0773d"></script>
-    {% if page.is_main %}
-      <script src="//cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.6/typed.min.js"></script>
-      <script defer>
-        (function(){
-          new Typed('#typed-elem', {
-            strings: [
-              "I build software^2000",
-              "I write code^1000",
-              "I write bugs ^1000and call them features^1000",
-              "I know multiple programming languages^2000 like Javascript, PHP, Python, Java and <abbr title='I dont want to talk about them since they are not my interest'>some others<\/abbr>^3000",
-              "",
-              "I mostly work with Javascript and NodeJS. For frontend, I use VueJS (and React). ^3000 PHP is also my major programming language. The PHP framework I mostly work with (and prefer) is Laravel^3000",
-              "",
-              "I am working with different modern technologies everyday and I like learning new things^500",
-              "",
-              "In my free time, I read books^1000",
-              "In my free time, I read poetry^1000",
-              "",
-              "I don't know what more I should talk about...^1000",
-              "",
-              // i am not responsible for the following
-              "I laav^500... ^1000emmm...^2000 chalo choro... kuch nai^2000",
-              "What more can I say...^1000",
-              "I love <abbr title='Beloved'>The Friend<\/abbr>",
-              "I love <abbr title='the idea of Love'>Love<\/abbr>",
-              "",
-              "I am nothing^500...^1000",
-              "",
-              "I am not this body^1000",
-              "",
-              "I am the soul^1000 that lives^1000 within this body",
-              "I am nothing^1000 yet I am ^500everything^1000",
-              "I have no idea what I am talking about.^1000 Anyway...",
-              "Stay blessed.^30000",
-              "You know what?^1000 I don't know if someone has told you this but^1000 you are awesome `🤗`."
-            ],
-            showCursor: true,
-            typeSpeed: 60,
-            backSpeed: 15,
-            backDelay: 500,
-            startDelay: 1000,
-            onComplete: function(typed){
-              typed.stop();
-              try {
-                document.getElementsByClassName("typed-cursor")[0].style.display = 'none';
-              } catch(e){}
-            }
-          });
-        })();
-      </script>
-    {% endif %}
-  </body>
 </html>
