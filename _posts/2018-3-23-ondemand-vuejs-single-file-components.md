@@ -7,13 +7,13 @@ I have been using VueJS for many projects. For some reasons, I enjoy working wit
 
 However, what if I don't want to use VueJS on all of my frontend? How can we use VueJS on demand on specific pages?
 
-While there is no problem in this approach and it is possible to use Vue like that. The vue instance can use template from a string, HTML element or template literal but it demands runtime "compiling" of the template which has some side effects as compared to using the pure render function or an already compiled template. 
+There is no problem in this approach and it is possible to use Vue like that. The vue instance can use template from a string, HTML element or template literal but it demands runtime "compiling" of the template which has some side effects as compared to using the pure render function or an already compiled template. 
 
 The runtime compiling doesn't work in environments where statements like `eval` or `new Function` is disabled (example: in a chrome app). Template compiling also takes some time. 
 
-VueJS has different builds for this matter. The one with template compiler is 30% more in size as compared to _runtime only_ build which lacks the template compiler. For these reasons, the best option was to use single file components. But It was not a single page application (SPA) and using a root Vue instance covering all the frontend was not an option. 
+VueJS has different builds for this matter. The one with template compiler is 30% more in size as compared to _runtime only_ build which lacks the template compiler. 
 
-So, loading Single File Components on demand with Webpack code splitting was the goal for me. 
+For these reasons, the best option was to use single file components. But It was not a single page application (SPA) and using a root Vue instance covering all the frontend was not an option. So, loading Single File Components on demand with Webpack code splitting was the goal for me. 
 
 ## Loading VueJS Component On Demand
 
@@ -39,7 +39,7 @@ window.__loadComponent = (name, selector, cb = null) => {
 
 I created a function which is supposed to be called when I want to load the Vue component. This code loads the vue component and then creates a vue instance and mounts it to our _DOM_ element. Remember that we are selectively loading vue component which means there is no _root vue instance_. 
 
-Webpack's code splitting feature will be used for `require` statements like these. It is also required to explicitly place `require()` calls in code otherwise webpack's code-splitting will not work as expected. 
+Webpack's code splitting feature will be used for `require` statements like these. It is also required to explicitly place `require([...])` calls in code otherwise webpack's code-splitting will not work as expected. 
 
 Now that we have a way to load vue components. When I need my component, I can simply load it like the following example.
 
@@ -55,7 +55,9 @@ __loadComponent("post-editor", "#postEditor", vueInstance => {
 
 
 
-**Now this is exactly what I need:**
+
+
+**This is exactly what I need:**
 
 - Single File Components (.vue)
 - Faster Rendering (since there is no runtime compiling of templates)
