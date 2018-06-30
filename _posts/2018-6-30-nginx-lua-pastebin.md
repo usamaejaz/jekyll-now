@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Building Pastebin for text using NGINX and Lua
+image: /images/nginx-lua.png
 ---
 
 At times I use different services for sharing text or code snippets. Pastebin is a well known term for such services (where you _paste_ whatever you want to share). The functionality is also simple (mostly) and that's why I decided to build a pastebin service using only NGINX. 
