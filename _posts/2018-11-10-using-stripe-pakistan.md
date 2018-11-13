@@ -44,7 +44,7 @@ You need a US bank account to attach with your Stripe account. Opening a US bank
 
 <a href="https://payoneer.com" target="_blank">__Payoneer__</a>'s _Global Payment Service_ also offers you a bank account which can be used to receive funds in your Payoneer account. However, the best solution is to open a proper bank account in US. 
 
-If you are going to use Payoneer, make sure you always keep some balance in your payoneer bank account for Stripe refunds (or may be keep some funds in Stripe for this).  The reason is if there is a reversal (or a refund request) and Stripe has already transferred the funds to your bank already, Stripe may try to reverse the funds and if it fails, your Stripe account may get temporary issues. There is no other issue as far as I know with using Payoneer for Stripe.
+If you are going to use Payoneer, make sure you always keep some balance in your payoneer bank account for Stripe refunds (or may be keep some funds in Stripe for this).  The reason is if there is a reversal (or a refund request) and Stripe has transferred the funds to your bank already, Stripe may try to reverse the funds and if it fails, your Stripe account may get temporary issues. There is no other issue as far as I know with using Payoneer for Stripe.
 
 ---
 
