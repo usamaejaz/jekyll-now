@@ -16,7 +16,7 @@ Is there a payment gateway in Pakistan which can offer the same features as comp
 
 Local banks and solutions like EasyPaisa also provide payment gateway services but they are still very limited. One-time payments are often simple but how are you going to implement subscription plans with those payment gateways? Recurring billing - monthly or yearly, proration, upgrades and downgrades, subscription cancellation and refunds, storing payment methods and card details... the list can go on. Good luck using a local payment gateway for things listed above.
 
-When you look at what features [Stripe](https://stripe.com) has, you know why It is one of the best payment platforms out there. The other close alternative that I know is [Braintree](https://www.braintreepayments.com/) for me. Both are not available in Pakistan.
+When you look at what features <a href="https://stripe.com" target="_blank">Stripe</a> has, you know why It is one of the best payment platforms out there. The other close alternative that I know is <a href="https://www.braintreepayments.com/" target="_blank">Braintree</a> for me. Both are not available in Pakistan.
 
 Payments are a challenge when your options are very limited. You have to choose a payment gateway which offers you the billing features that you need. After checking a number of payment gateways, I decided to use Stripe but how will I be able to do that? Stripe is not available in Pakistan. This means that your Pakistani startup cannot use it. However, the story doesn't end here. 
 
@@ -38,10 +38,12 @@ You need a company in US to open your Stripe account. Your company also needs to
 
 You need a US bank account to attach with your Stripe account. Opening a US bank account is another story.
 
-[__Payoneer__](https://payoneer.com)'s _Global Payment Service_ also offers you a bank account which can be used to receive funds in your Payoneer account. However, the best solution is to open a proper bank account in US. 
+<a href="https://payoneer.com" target="_blank">__Payoneer__</a>'s _Global Payment Service_ also offers you a bank account which can be used to receive funds in your Payoneer account. However, the best solution is to open a proper bank account in US. 
 
 If you are going to use Payoneer, make sure you always keep some balance in your payoneer bank account for Stripe refunds (or may be keep some funds in Stripe for this).  The reason is if there is a reversal (or a refund request) and Stripe has already transferred the funds to your bank already, Stripe may try to reverse the funds and if it fails, your Stripe account may get temporary issues. There is no other issue as far as I know with using Payoneer for Stripe.
 
 ---
 
-After you have the requirements ready, go ahead and open your Stripe account. It's also best to get in contact with Stripe's support (which is great) to discuss about your business, product or stripe account status (after your Stripe account is opened). Another thing that's worth mentioning is that your EIN should be a week or two older to be verified by Stripe (even so, you can still process payments while it's pending verification). 
+After you have the requirements ready, go ahead and open your Stripe account. It's also best to get in contact with Stripe's support (which is great) to discuss about your business, product or stripe account status (after your Stripe account is opened). 
+
+Another thing that's worth mentioning is that your EIN should be a week or two older to be verified by Stripe (even so, you can still process payments while it's pending verification). 
