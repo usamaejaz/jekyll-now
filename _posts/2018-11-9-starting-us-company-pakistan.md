@@ -10,7 +10,7 @@ Having a legal entity in United States can become a requirement for doing busine
 
 <small style="text-align:center;display:block;">_Photo by <a href="https://unsplash.com/photos/diV_Xm1G6Vo?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank">Chris Barbalis</a>_</small>
 
-A big reason for forming a company in US is that the best payment gateways work with US bank accounts and businesses only (like [Stripe](/using-stripe-pakistan)). 
+A big reason for forming a company in US is that the best payment gateways (like [Stripe](/using-stripe-pakistan)) are not available in Pakistan. 
 
 Forming a legal entity in United States is a no-issue when you are in US. However, things can become complicated if you are located outside. So how do we form a company in US remotely?
 
@@ -22,7 +22,7 @@ You can form your company in the state of Delaware. A lot of startups register t
 
 LLC or a Corporation? It really depends on you and your company. LLC offers flexibility and is also easier to maintain. I suggest checking out <a href="https://www.corporatedirect.com/starting-a-business/difference-llcs-corporations/" target="_blank">LLC vs Corporation on corporatedirect.com</a>.
 
-There are many agents and websites offering the service to register your company in Delaware on your behalf. I used <a href="https://www.delawareinc.com/" target="_blank">Harvard LLC</a>. It costed me \$179 (after their \$100 off promo) to register an LLC. The cost also covers  __Registered Agent Fee__ which is a recurring fee (\$50/yr).  
+There are many agents and websites offering the service to register your company in Delaware on your behalf. I used <a href="https://www.delawareinc.com/" target="_blank">Harvard LLC</a>. It costed me \$179 (after their \$100 off promo) to register an LLC. The cost also covers  __Registered Agent Fee__ which is a recurring \$50/yr fee.  
 
 There are many other alternatives which you can easily find with a quick search.
 
@@ -33,7 +33,7 @@ Services like _Harvard LLC_ can also do this on your behalf (but they will proba
 
 ## Physical Address
 
-Your company will also need a US address. For this, there are plenty of services which can give you virtual address in US. I chose to go with _Harvard LLC_ as It looked easier to manage everything with one service provider. What I really liked was it was not a monthly subscription but a one-time cost. I paid \$29 for 6 mail-forwarding credits.
+Your company will also need a US address. For this, there are plenty of services which can give you virtual address in US. I chose to go with _Harvard LLC_ as It looked easier to manage everything with one service provider. What I really liked was I didn't have to use a monthly subscription but a one-time cost. I paid \$29 for 6 mail-forwarding credits.
 
 ## US Phone Number
 
@@ -51,8 +51,4 @@ If there is no option for you, you can still use <a href="https://payoneer.com" 
 
 ## Payment Gateway
 
-If you also need a payment gateway, I have also written about [using __Stripe__ in Pakistan](/using-stripe-pakistan).
-
----
-
-Now you can have a legal entity in US and there is nothing which can stop you. I wonder what type of company or business you are building 😊.
+If you also need a payment gateway, I have written about [using __Stripe__ in Pakistan](/using-stripe-pakistan).

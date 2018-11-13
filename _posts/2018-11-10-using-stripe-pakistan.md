@@ -14,11 +14,15 @@ Of-course it's simple when you have to process one-time payments. For that purpo
 
 Is there a payment gateway in Pakistan which can offer the same features as compared to what Stripe offers? Yes, 2checkout is also available but is it really the same? 
 
-Local banks and solutions like EasyPaisa also provide payment gateway services but they are still very limited. One-time payments are often simple but how are you going to implement subscription plans with those payment gateways? Recurring billing - monthly or yearly, proration, upgrades and downgrades, subscription cancellation and refunds, storing payment methods and card details... the list can go on. Good luck using a local payment gateway for things listed above.
+Local banks and solutions like EasyPaisa also provide payment gateway services but they are still very limited. One-time payments are often simple but how are you going to implement subscription plans with those payment gateways? 
+
+Recurring billing - monthly or yearly, proration, upgrades and downgrades, subscription cancellation and refunds, storing payment methods and card details... the list can go on. Good luck using a local payment gateway for things listed above.
 
 When you look at what features <a href="https://stripe.com" target="_blank">Stripe</a> has, you know why It is one of the best payment platforms out there. The other close alternative that I know is <a href="https://www.braintreepayments.com/" target="_blank">Braintree</a> for me. Both are not available in Pakistan.
 
-Payments are a challenge when your options are very limited. You have to choose a payment gateway which offers you the billing features that you need. After checking a number of payment gateways, I decided to use Stripe but how will I be able to do that? Stripe is not available in Pakistan. This means that your Pakistani startup cannot use it. However, the story doesn't end here. 
+Payments are a challenge when your options are very limited. You have to choose a payment gateway which offers you the billing features that you need. 
+
+After checking a number of payment gateways, I decided to use Stripe but how will I be able to do that? Stripe is not available in Pakistan. This means that your Pakistani startup cannot use it. However, the story doesn't end here. 
 
 ## Using Stripe
 
