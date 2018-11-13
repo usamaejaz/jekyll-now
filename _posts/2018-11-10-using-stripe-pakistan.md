@@ -36,7 +36,7 @@ You need the following to be able to use Stripe.
 
 ### Company and Tax ID
 
-You need a company in US to open your Stripe account. Your company also needs to have a physical address and a phone number. I have written about registering a US company [here](/starting-us-company-pakistan).
+You need a company in US to open your Stripe account. Your company also needs to have a physical address and a phone number. I have written about registering a US company [here](/forming-us-company-pakistan).
 
 ### US Bank Account
 
