@@ -2,7 +2,7 @@
   "basics": {
     "name": "Usama Ejaz",
     "label": "Full Stack Developer",
-    "summary": "I'm a full stack developer. I love working with modern and open source technologies. I have had much experience in working on small to large-scale apps and projects.",
+    "summary": "I'm a full stack software engineer. I love working with modern technologies. I have had much experience in working on small to large-scale applications and projects.",
     "email": "me@usamaejaz.com",
     "website": "https://usamaejaz.com",
     "location": {
@@ -88,15 +88,24 @@
   "work": [
     {
       "highlights": [
-        "→ Want to discuss about your project? Visit glaxosoft.com",
-        "Built large-scale apps",
-        "Contributed towards Government projects",
-        "Open source contributions"
+        "I started SocialBu alone and now have a wonderful team",
+        "Try SocialBu → socialbu.com"
       ],
-      "summary": "The next-gen software company. I am responsible for running several projects under the company.",
+      "summary": "A social media management and automation platform.",
+      "website": "https://socialbu.com",
+      "company": "SocialBu",
+      "position": "Founder",
+      "startDate": "2018"
+    },
+    {
+      "highlights": [
+        "I lead multiple projects under Glaxosoft",
+        "Launched a software agency → noblesoft.co"
+      ],
+      "summary": "The modern software company.",
       "website": "https://glaxosoft.com",
       "company": "Glaxosoft",
-      "position": "Founder",
+      "position": "Full Stack Engineer",
       "startDate": "2016"
     },
     {
@@ -118,20 +127,19 @@
       "position": "Performance Analyst"
     },
     {
-      "summary": "AdReport is an advertising monitoring company. I build NodeJS based spiders / bots for monitoring ads on several channels.",
+      "highlights": [
+        "Built scalable solutions for crawling websites",
+        "Built highly successful ad identification and parsing technology",
+        "Automated multiple browser engines"
+      ],
+      "summary": "AdReport is an advertising monitoring company. I am primarily responsible for developing and maintaining JavaScript and NodeJS based backend services.",
       "website": "http://adreport.com",
       "company": "AdReport",
-      "position": "Developer"
-    },
-    {
-      "summary": "Etisalat is one of the largest telecommunications companies in the world. My part was to build the program using NodeJS to execute some operator transactions smoothly and faster.",
-      "website": "http://www.etisalat.af",
-      "company": "Etisalat Afghanistan",
-      "position": "Developer"
+      "position": "Software Developer"
     },
     {
       "company": "Freelance Developer",
-      "summary": "Throughout my time, I was involved with a number of interesting freelance projects."
+      "summary": "Throughout my time, I have been involved with a number of interesting freelance projects."
     }
   ],
   "languages": [
@@ -166,8 +174,11 @@
         "Truth",
         "Mysticism",
         "Love",
-        "Knowledge"
+        "Wisdom"
       ]
+    },
+    {
+      "name": "Psychology"
     }
   ]
 }

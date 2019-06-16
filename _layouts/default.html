@@ -2,7 +2,7 @@
 <html>
 
 <head>
-  <title>{% if page.title %}{{ page.title }} – {{ site.name }}{% else %}{{ site.name }} – {{ site.description }}{% endif %}</title>
+  <title>{% if page.title %}{{ page.title }} – {{ site.name }}{% else %}{{ site.name }}{% endif %}</title>
 
   {% include meta.html %}
 
@@ -11,7 +11,7 @@
     <![endif]-->
 
   <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
-  <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml"
+  <link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="{{ site.baseurl }}/feed.xml"
   />
   <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
   <link rel="icon" href="/favicon.ico" type="image/x-icon" />
@@ -41,11 +41,7 @@
         "https://usamaejaz.com/about/",
         "https://usamaejaz.com/resume/"
       ],
-      "jobTitle": "Full Stack Developer",
-      "worksFor": {
-        "@type": "Organization",
-        "name": "Glaxosoft"
-      }  
+      "jobTitle": "Full Stack Software Engineer"
     }
   </script> {% endif %}
 
@@ -61,7 +57,6 @@
           <h1 class="site-name">
             <a href="{{ site.baseurl }}/">{{ site.name }}</a>
           </h1>
-          <p class="site-description">{{ site.description }}</p>
         </div>
 
         <nav>
